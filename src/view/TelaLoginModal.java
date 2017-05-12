@@ -53,6 +53,12 @@ public class TelaLoginModal extends javax.swing.JDialog {
 
         jLabel2.setText("Senha");
 
+        txtLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtLoginActionPerformed(evt);
+            }
+        });
+
         jButton1.setText("Entrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,6 +146,10 @@ public class TelaLoginModal extends javax.swing.JDialog {
         System.exit(0);
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void txtLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLoginActionPerformed
 
     /**
      * @param args the command line arguments
